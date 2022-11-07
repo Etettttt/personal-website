@@ -525,12 +525,24 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-96 {
+  margin-top: 24rem;
+}
+
+.mt-100 {
+  margin-top: 28rem;
+}
+
 .flex {
   display: flex;
 }
 
 .flex-row {
   flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .justify-center {
@@ -541,6 +553,10 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.25rem * var(--tw-space-x-reverse));
   margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.text-left {
+  text-align: left;
 }
 
 .font-mono {
@@ -558,10 +574,6 @@ video {
 
 .font-medium {
   font-weight: 500;
-}
-
-.font-normal {
-  font-weight: 400;
 }
 
 .text-offWhite {
@@ -623,6 +635,10 @@ body {
 }
 
 @media (min-width: 720px) {
+  .md\:text-center {
+    text-align: center;
+  }
+
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;

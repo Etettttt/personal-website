@@ -14,7 +14,10 @@ module.exports = {
         lightPurple: '#b8c1ec',
         offPink: '#eebbc3',
         offWhite: '#e9ecef',
-        darkGray: '212529',
+        darkGray: '#212529',
+      },
+      margin: {
+        100: '28rem',
       },
     },
   },
