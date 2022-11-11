@@ -10,12 +10,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        darkPurple: '#232946',
-        lightPurple: '#b8c1ec',
-        neonPurple: '#C724B1',
-        brightPink: '#FF2C6D',
-        offWhite: '#e9ecef',
-        darkGray: '#212529',
+        lightPurple: '#D2C4FD',
+        darkGray: '#222725',
       },
       margin: {
         100: '28rem',
