@@ -16,6 +16,9 @@ module.exports = {
       margin: {
         100: '28rem',
       },
+      dropShadow: {
+        '3xl': '0 10px 8px rgba(0, 0, 0, 0.5)',
+      },
     },
   },
   plugins: [],
