@@ -566,6 +566,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -842,6 +846,10 @@ body {
     margin-top: 1.5rem;
   }
 
+  .sm\:mt-7 {
+    margin-top: 1.75rem;
+  }
+
   .sm\:h-32 {
     height: 8rem;
   }
@@ -908,6 +916,10 @@ body {
 @media (min-width: 720px) {
   .md\:mt-8 {
     margin-top: 2rem;
+  }
+
+  .md\:mt-9 {
+    margin-top: 2.25rem;
   }
 
   .md\:h-64 {
