@@ -11,7 +11,7 @@ module.exports = {
     extend: {
       colors: {
         lightPurple: '#D2C4FD',
-        darkGray: rgba(57,61,64,1),
+        darkGray: '#393D40',
       },
       margin: {
         100: '28rem',
