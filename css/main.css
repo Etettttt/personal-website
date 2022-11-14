@@ -419,6 +419,250 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 100;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-Thin.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-Thin.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: italic;
+
+  font-weight: 100;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-ThinItalic.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-ThinItalic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 200;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-ExtraLight.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-ExtraLight.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: italic;
+
+  font-weight: 200;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-ExtraLightItalic.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-ExtraLightItalic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 300;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-Light.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-Light.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: italic;
+
+  font-weight: 300;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-LightItalic.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-LightItalic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-Regular.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-Regular.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: italic;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-Italic.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-Italic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-Medium.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-Medium.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: italic;
+
+  font-weight: 500;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-MediumItalic.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-MediumItalic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 600;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-SemiBold.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-SemiBold.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: italic;
+
+  font-weight: 600;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-SemiBoldItalic.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-SemiBoldItalic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-Bold.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-Bold.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: italic;
+
+  font-weight: 700;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-BoldItalic.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-BoldItalic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 800;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-ExtraBold.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-ExtraBold.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: italic;
+
+  font-weight: 800;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-ExtraBoldItalic.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-ExtraBoldItalic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: normal;
+
+  font-weight: 900;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-Black.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-Black.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+
+  font-style: italic;
+
+  font-weight: 900;
+
+  font-display: swap;
+
+  src: url("https://rsms.me/inter/font-files/Inter-BlackItalic.woff2?v=3.19") format("woff2"), url("https://rsms.me/inter/font-files/Inter-BlackItalic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter var';
+
+  font-style: normal;
+
+  font-weight: 100 900;
+
+  font-display: swap;
+
+  src: url('https://rsms.me/inter/font-files/Inter-roman.var.woff2?v=3.19') format('woff2');
+
+  font-named-instance: 'Regular';
+}
+
+@font-face {
+  font-family: 'Inter var';
+
+  font-style: italic;
+
+  font-weight: 100 900;
+
+  font-display: swap;
+
+  src: url('https://rsms.me/inter/font-files/Inter-italic.var.woff2?v=3.19') format('woff2');
+
+  font-named-instance: 'Italic';
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -604,14 +848,22 @@ video {
   justify-content: center;
 }
 
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.75rem * var(--tw-space-x-reverse));
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
 .overflow-auto {
@@ -635,6 +887,11 @@ video {
   border-color: rgb(196 181 253 / var(--tw-border-opacity));
 }
 
+.border-neutral-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(64 64 64 / var(--tw-border-opacity));
+}
+
 .bg-lightBG {
   --tw-bg-opacity: 1;
   background-color: rgb(224 221 207 / var(--tw-bg-opacity));
@@ -644,16 +901,8 @@ video {
   background-color: rgb(192 196 177 / 0.7);
 }
 
-.fill-violet-50 {
-  fill: #f5f3ff;
-}
-
 .fill-violet-400 {
   fill: #a78bfa;
-}
-
-.stroke-violet-50 {
-  stroke: #f5f3ff;
 }
 
 .object-cover {
@@ -683,10 +932,6 @@ video {
   text-align: center;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -709,6 +954,11 @@ video {
   font-weight: 600;
 }
 
+.text-neutral-900 {
+  --tw-text-opacity: 1;
+  color: rgb(23 23 23 / var(--tw-text-opacity));
+}
+
 .text-violet-50 {
   --tw-text-opacity: 1;
   color: rgb(245 243 255 / var(--tw-text-opacity));
@@ -724,26 +974,6 @@ video {
   color: rgb(167 139 250 / var(--tw-text-opacity));
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-violet-900 {
-  --tw-text-opacity: 1;
-  color: rgb(76 29 149 / var(--tw-text-opacity));
-}
-
-.text-neutral-800 {
-  --tw-text-opacity: 1;
-  color: rgb(38 38 38 / var(--tw-text-opacity));
-}
-
-.text-neutral-900 {
-  --tw-text-opacity: 1;
-  color: rgb(23 23 23 / var(--tw-text-opacity));
-}
-
 .text-neutral-700 {
   --tw-text-opacity: 1;
   color: rgb(64 64 64 / var(--tw-text-opacity));
@@ -753,13 +983,573 @@ video {
   text-decoration-line: underline;
 }
 
-.decoration-violet-300 {
-  text-decoration-color: #c4b5fd;
-}
-
 .drop-shadow-3xl {
   --tw-drop-shadow: drop-shadow(0 10px 8px rgba(0, 0, 0, 0.5));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.font-inter {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+@supports(font-variation-settings: normal) {
+  .font-inter {
+    font-family: 'Inter var', system-ui, sans-serif;
+  }
+}
+
+.font-inter .font-feature-normal, .font-inter.font-feature-normal {
+  font-feature-settings: normal;
+}
+
+.font-inter .font-feature-default,.font-inter.font-feature-default {
+  font-feature-settings: "calt" 1, "kern" 1;
+}
+
+.font-inter .text-xs, .font-inter.text-xs {
+  line-height: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.000490774em;
+}
+
+.font-inter .text-xs .tracking-tighter, .font-inter .text-xs.tracking-tighter, .font-inter.text-xs .tracking-tighter, .font-inter.text-xs.tracking-tighter, .tracking-tighter .font-inter .text-xs, .tracking-tighter .font-inter.text-xs {
+  line-height: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: -0.049509226em;
+}
+
+.font-inter .text-xs .tracking-tight, .font-inter .text-xs.tracking-tight, .font-inter.text-xs .tracking-tight, .font-inter.text-xs.tracking-tight, .tracking-tight .font-inter .text-xs, .tracking-tight .font-inter.text-xs {
+  line-height: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: -0.024509226em;
+}
+
+.font-inter .text-xs .tracking-normal, .font-inter .text-xs.tracking-normal, .font-inter.text-xs .tracking-normal, .font-inter.text-xs.tracking-normal, .tracking-normal .font-inter .text-xs, .tracking-normal .font-inter.text-xs {
+  line-height: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.000490774em;
+}
+
+.font-inter .text-xs .tracking-wide, .font-inter .text-xs.tracking-wide, .font-inter.text-xs .tracking-wide, .font-inter.text-xs.tracking-wide, .tracking-wide .font-inter .text-xs, .tracking-wide .font-inter.text-xs {
+  line-height: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.025490774em;
+}
+
+.font-inter .text-xs .tracking-wider, .font-inter .text-xs.tracking-wider, .font-inter.text-xs .tracking-wider, .font-inter.text-xs.tracking-wider, .tracking-wider .font-inter .text-xs, .tracking-wider .font-inter.text-xs {
+  line-height: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.050490774em;
+}
+
+.font-inter .text-xs .tracking-widest, .font-inter .text-xs.tracking-widest, .font-inter.text-xs .tracking-widest, .font-inter.text-xs.tracking-widest, .tracking-widest .font-inter .text-xs, .tracking-widest .font-inter.text-xs {
+  line-height: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.100490774em;
+}
+
+.font-inter .text-sm, .font-inter.text-sm {
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: -0.006223544em;
+}
+
+.font-inter .text-sm .tracking-tighter, .font-inter .text-sm.tracking-tighter, .font-inter.text-sm .tracking-tighter, .font-inter.text-sm.tracking-tighter, .tracking-tighter .font-inter .text-sm, .tracking-tighter .font-inter.text-sm {
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: -0.056223544em;
+}
+
+.font-inter .text-sm .tracking-tight, .font-inter .text-sm.tracking-tight, .font-inter.text-sm .tracking-tight, .font-inter.text-sm.tracking-tight, .tracking-tight .font-inter .text-sm, .tracking-tight .font-inter.text-sm {
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: -0.031223544em;
+}
+
+.font-inter .text-sm .tracking-normal, .font-inter .text-sm.tracking-normal, .font-inter.text-sm .tracking-normal, .font-inter.text-sm.tracking-normal, .tracking-normal .font-inter .text-sm, .tracking-normal .font-inter.text-sm {
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: -0.006223544em;
+}
+
+.font-inter .text-sm .tracking-wide, .font-inter .text-sm.tracking-wide, .font-inter.text-sm .tracking-wide, .font-inter.text-sm.tracking-wide, .tracking-wide .font-inter .text-sm, .tracking-wide .font-inter.text-sm {
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.018776456em;
+}
+
+.font-inter .text-sm .tracking-wider, .font-inter .text-sm.tracking-wider, .font-inter.text-sm .tracking-wider, .font-inter.text-sm.tracking-wider, .tracking-wider .font-inter .text-sm, .tracking-wider .font-inter.text-sm {
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.043776456em;
+}
+
+.font-inter .text-sm .tracking-widest, .font-inter .text-sm.tracking-widest, .font-inter.text-sm .tracking-widest, .font-inter.text-sm.tracking-widest, .tracking-widest .font-inter .text-sm, .tracking-widest .font-inter.text-sm {
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.093776456em;
+}
+
+.font-inter .text-base, .font-inter.text-base {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: -0.010959779em;
+}
+
+.font-inter .text-base .tracking-tighter, .font-inter .text-base.tracking-tighter, .font-inter.text-base .tracking-tighter, .font-inter.text-base.tracking-tighter, .tracking-tighter .font-inter .text-base, .tracking-tighter .font-inter.text-base {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: -0.060959779em;
+}
+
+.font-inter .text-base .tracking-tight, .font-inter .text-base.tracking-tight, .font-inter.text-base .tracking-tight, .font-inter.text-base.tracking-tight, .tracking-tight .font-inter .text-base, .tracking-tight .font-inter.text-base {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: -0.035959779em;
+}
+
+.font-inter .text-base .tracking-normal, .font-inter .text-base.tracking-normal, .font-inter.text-base .tracking-normal, .font-inter.text-base.tracking-normal, .tracking-normal .font-inter .text-base, .tracking-normal .font-inter.text-base {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: -0.010959779em;
+}
+
+.font-inter .text-base .tracking-wide, .font-inter .text-base.tracking-wide, .font-inter.text-base .tracking-wide, .font-inter.text-base.tracking-wide, .tracking-wide .font-inter .text-base, .tracking-wide .font-inter.text-base {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.014040221em;
+}
+
+.font-inter .text-base .tracking-wider, .font-inter .text-base.tracking-wider, .font-inter.text-base .tracking-wider, .font-inter.text-base.tracking-wider, .tracking-wider .font-inter .text-base, .tracking-wider .font-inter.text-base {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.039040221em;
+}
+
+.font-inter .text-base .tracking-widest, .font-inter .text-base.tracking-widest, .font-inter.text-base .tracking-widest, .font-inter.text-base.tracking-widest, .tracking-widest .font-inter .text-base, .tracking-widest .font-inter.text-base {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.089040221em;
+}
+
+.font-inter .text-lg, .font-inter.text-lg {
+  line-height: 1.75rem;
+  font-size: 1.125rem;
+  letter-spacing: -0.014300686em;
+}
+
+.font-inter .text-lg .tracking-tighter, .font-inter .text-lg.tracking-tighter, .font-inter.text-lg .tracking-tighter, .font-inter.text-lg.tracking-tighter, .tracking-tighter .font-inter .text-lg, .tracking-tighter .font-inter.text-lg {
+  line-height: 1.75rem;
+  font-size: 1.125rem;
+  letter-spacing: -0.064300686em;
+}
+
+.font-inter .text-lg .tracking-tight, .font-inter .text-lg.tracking-tight, .font-inter.text-lg .tracking-tight, .font-inter.text-lg.tracking-tight, .tracking-tight .font-inter .text-lg, .tracking-tight .font-inter.text-lg {
+  line-height: 1.75rem;
+  font-size: 1.125rem;
+  letter-spacing: -0.039300686em;
+}
+
+.font-inter .text-lg .tracking-normal, .font-inter .text-lg.tracking-normal, .font-inter.text-lg .tracking-normal, .font-inter.text-lg.tracking-normal, .tracking-normal .font-inter .text-lg, .tracking-normal .font-inter.text-lg {
+  line-height: 1.75rem;
+  font-size: 1.125rem;
+  letter-spacing: -0.014300686em;
+}
+
+.font-inter .text-lg .tracking-wide, .font-inter .text-lg.tracking-wide, .font-inter.text-lg .tracking-wide, .font-inter.text-lg.tracking-wide, .tracking-wide .font-inter .text-lg, .tracking-wide .font-inter.text-lg {
+  line-height: 1.75rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.010699314em;
+}
+
+.font-inter .text-lg .tracking-wider, .font-inter .text-lg.tracking-wider, .font-inter.text-lg .tracking-wider, .font-inter.text-lg.tracking-wider, .tracking-wider .font-inter .text-lg, .tracking-wider .font-inter.text-lg {
+  line-height: 1.75rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.035699314em;
+}
+
+.font-inter .text-lg .tracking-widest, .font-inter .text-lg.tracking-widest, .font-inter.text-lg .tracking-widest, .font-inter.text-lg.tracking-widest, .tracking-widest .font-inter .text-lg, .tracking-widest .font-inter.text-lg {
+  line-height: 1.75rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.085699314em;
+}
+
+.font-inter .text-xl, .font-inter.text-xl {
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+  letter-spacing: -0.016657339em;
+}
+
+.font-inter .text-xl .tracking-tighter, .font-inter .text-xl.tracking-tighter, .font-inter.text-xl .tracking-tighter, .font-inter.text-xl.tracking-tighter, .tracking-tighter .font-inter .text-xl, .tracking-tighter .font-inter.text-xl {
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+  letter-spacing: -0.066657339em;
+}
+
+.font-inter .text-xl .tracking-tight, .font-inter .text-xl.tracking-tight, .font-inter.text-xl .tracking-tight, .font-inter.text-xl.tracking-tight, .tracking-tight .font-inter .text-xl, .tracking-tight .font-inter.text-xl {
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+  letter-spacing: -0.041657339em;
+}
+
+.font-inter .text-xl .tracking-normal, .font-inter .text-xl.tracking-normal, .font-inter.text-xl .tracking-normal, .font-inter.text-xl.tracking-normal, .tracking-normal .font-inter .text-xl, .tracking-normal .font-inter.text-xl {
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+  letter-spacing: -0.016657339em;
+}
+
+.font-inter .text-xl .tracking-wide, .font-inter .text-xl.tracking-wide, .font-inter.text-xl .tracking-wide, .font-inter.text-xl.tracking-wide, .tracking-wide .font-inter .text-xl, .tracking-wide .font-inter.text-xl {
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.008342661em;
+}
+
+.font-inter .text-xl .tracking-wider, .font-inter .text-xl.tracking-wider, .font-inter.text-xl .tracking-wider, .font-inter.text-xl.tracking-wider, .tracking-wider .font-inter .text-xl, .tracking-wider .font-inter.text-xl {
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.033342661em;
+}
+
+.font-inter .text-xl .tracking-widest, .font-inter .text-xl.tracking-widest, .font-inter.text-xl .tracking-widest, .font-inter.text-xl.tracking-widest, .tracking-widest .font-inter .text-xl, .tracking-widest .font-inter.text-xl {
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.083342661em;
+}
+
+.font-inter .text-2xl, .font-inter.text-2xl {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: -0.019492328em;
+}
+
+.font-inter .text-2xl .tracking-tighter, .font-inter .text-2xl.tracking-tighter, .font-inter.text-2xl .tracking-tighter, .font-inter.text-2xl.tracking-tighter, .tracking-tighter .font-inter .text-2xl, .tracking-tighter .font-inter.text-2xl {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: -0.069492328em;
+}
+
+.font-inter .text-2xl .tracking-tight, .font-inter .text-2xl.tracking-tight, .font-inter.text-2xl .tracking-tight, .font-inter.text-2xl.tracking-tight, .tracking-tight .font-inter .text-2xl, .tracking-tight .font-inter.text-2xl {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: -0.044492328em;
+}
+
+.font-inter .text-2xl .tracking-normal, .font-inter .text-2xl.tracking-normal, .font-inter.text-2xl .tracking-normal, .font-inter.text-2xl.tracking-normal, .tracking-normal .font-inter .text-2xl, .tracking-normal .font-inter.text-2xl {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: -0.019492328em;
+}
+
+.font-inter .text-2xl .tracking-wide, .font-inter .text-2xl.tracking-wide, .font-inter.text-2xl .tracking-wide, .font-inter.text-2xl.tracking-wide, .tracking-wide .font-inter .text-2xl, .tracking-wide .font-inter.text-2xl {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.005507672em;
+}
+
+.font-inter .text-2xl .tracking-wider, .font-inter .text-2xl.tracking-wider, .font-inter.text-2xl .tracking-wider, .font-inter.text-2xl.tracking-wider, .tracking-wider .font-inter .text-2xl, .tracking-wider .font-inter.text-2xl {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.030507672em;
+}
+
+.font-inter .text-2xl .tracking-widest, .font-inter .text-2xl.tracking-widest, .font-inter.text-2xl .tracking-widest, .font-inter.text-2xl.tracking-widest, .tracking-widest .font-inter .text-2xl, .tracking-widest .font-inter.text-2xl {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.080507672em;
+}
+
+.font-inter .text-3xl, .font-inter.text-3xl {
+  line-height: 2.25rem;
+  font-size: 1.875rem;
+  letter-spacing: -0.021314537em;
+}
+
+.font-inter .text-3xl .tracking-tighter, .font-inter .text-3xl.tracking-tighter, .font-inter.text-3xl .tracking-tighter, .font-inter.text-3xl.tracking-tighter, .tracking-tighter .font-inter .text-3xl, .tracking-tighter .font-inter.text-3xl {
+  line-height: 2.25rem;
+  font-size: 1.875rem;
+  letter-spacing: -0.071314537em;
+}
+
+.font-inter .text-3xl .tracking-tight, .font-inter .text-3xl.tracking-tight, .font-inter.text-3xl .tracking-tight, .font-inter.text-3xl.tracking-tight, .tracking-tight .font-inter .text-3xl, .tracking-tight .font-inter.text-3xl {
+  line-height: 2.25rem;
+  font-size: 1.875rem;
+  letter-spacing: -0.046314537em;
+}
+
+.font-inter .text-3xl .tracking-normal, .font-inter .text-3xl.tracking-normal, .font-inter.text-3xl .tracking-normal, .font-inter.text-3xl.tracking-normal, .tracking-normal .font-inter .text-3xl, .tracking-normal .font-inter.text-3xl {
+  line-height: 2.25rem;
+  font-size: 1.875rem;
+  letter-spacing: -0.021314537em;
+}
+
+.font-inter .text-3xl .tracking-wide, .font-inter .text-3xl.tracking-wide, .font-inter.text-3xl .tracking-wide, .font-inter.text-3xl.tracking-wide, .tracking-wide .font-inter .text-3xl, .tracking-wide .font-inter.text-3xl {
+  line-height: 2.25rem;
+  font-size: 1.875rem;
+  letter-spacing: 0.003685463em;
+}
+
+.font-inter .text-3xl .tracking-wider, .font-inter .text-3xl.tracking-wider, .font-inter.text-3xl .tracking-wider, .font-inter.text-3xl.tracking-wider, .tracking-wider .font-inter .text-3xl, .tracking-wider .font-inter.text-3xl {
+  line-height: 2.25rem;
+  font-size: 1.875rem;
+  letter-spacing: 0.028685463em;
+}
+
+.font-inter .text-3xl .tracking-widest, .font-inter .text-3xl.tracking-widest, .font-inter.text-3xl .tracking-widest, .font-inter.text-3xl.tracking-widest, .tracking-widest .font-inter .text-3xl, .tracking-widest .font-inter.text-3xl {
+  line-height: 2.25rem;
+  font-size: 1.875rem;
+  letter-spacing: 0.078685463em;
+}
+
+.font-inter .text-4xl, .font-inter.text-4xl {
+  line-height: 2.5rem;
+  font-size: 2.25rem;
+  letter-spacing: -0.021954113em;
+}
+
+.font-inter .text-4xl .tracking-tighter, .font-inter .text-4xl.tracking-tighter, .font-inter.text-4xl .tracking-tighter, .font-inter.text-4xl.tracking-tighter, .tracking-tighter .font-inter .text-4xl, .tracking-tighter .font-inter.text-4xl {
+  line-height: 2.5rem;
+  font-size: 2.25rem;
+  letter-spacing: -0.071954113em;
+}
+
+.font-inter .text-4xl .tracking-tight, .font-inter .text-4xl.tracking-tight, .font-inter.text-4xl .tracking-tight, .font-inter.text-4xl.tracking-tight, .tracking-tight .font-inter .text-4xl, .tracking-tight .font-inter.text-4xl {
+  line-height: 2.5rem;
+  font-size: 2.25rem;
+  letter-spacing: -0.046954113em;
+}
+
+.font-inter .text-4xl .tracking-normal, .font-inter .text-4xl.tracking-normal, .font-inter.text-4xl .tracking-normal, .font-inter.text-4xl.tracking-normal, .tracking-normal .font-inter .text-4xl, .tracking-normal .font-inter.text-4xl {
+  line-height: 2.5rem;
+  font-size: 2.25rem;
+  letter-spacing: -0.021954113em;
+}
+
+.font-inter .text-4xl .tracking-wide, .font-inter .text-4xl.tracking-wide, .font-inter.text-4xl .tracking-wide, .font-inter.text-4xl.tracking-wide, .tracking-wide .font-inter .text-4xl, .tracking-wide .font-inter.text-4xl {
+  line-height: 2.5rem;
+  font-size: 2.25rem;
+  letter-spacing: 0.003045887em;
+}
+
+.font-inter .text-4xl .tracking-wider, .font-inter .text-4xl.tracking-wider, .font-inter.text-4xl .tracking-wider, .font-inter.text-4xl.tracking-wider, .tracking-wider .font-inter .text-4xl, .tracking-wider .font-inter.text-4xl {
+  line-height: 2.5rem;
+  font-size: 2.25rem;
+  letter-spacing: 0.028045887em;
+}
+
+.font-inter .text-4xl .tracking-widest, .font-inter .text-4xl.tracking-widest, .font-inter.text-4xl .tracking-widest, .font-inter.text-4xl.tracking-widest, .tracking-widest .font-inter .text-4xl, .tracking-widest .font-inter.text-4xl {
+  line-height: 2.5rem;
+  font-size: 2.25rem;
+  letter-spacing: 0.078045887em;
+}
+
+.font-inter .text-5xl, .font-inter.text-5xl {
+  line-height: 1;
+  font-size: 3rem;
+  letter-spacing: -0.022257389em;
+}
+
+.font-inter .text-5xl .tracking-tighter, .font-inter .text-5xl.tracking-tighter, .font-inter.text-5xl .tracking-tighter, .font-inter.text-5xl.tracking-tighter, .tracking-tighter .font-inter .text-5xl, .tracking-tighter .font-inter.text-5xl {
+  line-height: 1;
+  font-size: 3rem;
+  letter-spacing: -0.072257389em;
+}
+
+.font-inter .text-5xl .tracking-tight, .font-inter .text-5xl.tracking-tight, .font-inter.text-5xl .tracking-tight, .font-inter.text-5xl.tracking-tight, .tracking-tight .font-inter .text-5xl, .tracking-tight .font-inter.text-5xl {
+  line-height: 1;
+  font-size: 3rem;
+  letter-spacing: -0.047257389em;
+}
+
+.font-inter .text-5xl .tracking-normal, .font-inter .text-5xl.tracking-normal, .font-inter.text-5xl .tracking-normal, .font-inter.text-5xl.tracking-normal, .tracking-normal .font-inter .text-5xl, .tracking-normal .font-inter.text-5xl {
+  line-height: 1;
+  font-size: 3rem;
+  letter-spacing: -0.022257389em;
+}
+
+.font-inter .text-5xl .tracking-wide, .font-inter .text-5xl.tracking-wide, .font-inter.text-5xl .tracking-wide, .font-inter.text-5xl.tracking-wide, .tracking-wide .font-inter .text-5xl, .tracking-wide .font-inter.text-5xl {
+  line-height: 1;
+  font-size: 3rem;
+  letter-spacing: 0.002742611em;
+}
+
+.font-inter .text-5xl .tracking-wider, .font-inter .text-5xl.tracking-wider, .font-inter.text-5xl .tracking-wider, .font-inter.text-5xl.tracking-wider, .tracking-wider .font-inter .text-5xl, .tracking-wider .font-inter.text-5xl {
+  line-height: 1;
+  font-size: 3rem;
+  letter-spacing: 0.027742611em;
+}
+
+.font-inter .text-5xl .tracking-widest, .font-inter .text-5xl.tracking-widest, .font-inter.text-5xl .tracking-widest, .font-inter.text-5xl.tracking-widest, .tracking-widest .font-inter .text-5xl, .tracking-widest .font-inter.text-5xl {
+  line-height: 1;
+  font-size: 3rem;
+  letter-spacing: 0.077742611em;
+}
+
+.font-inter .text-6xl, .font-inter.text-6xl {
+  line-height: 1;
+  font-size: 3.75rem;
+  letter-spacing: -0.022294751em;
+}
+
+.font-inter .text-6xl .tracking-tighter, .font-inter .text-6xl.tracking-tighter, .font-inter.text-6xl .tracking-tighter, .font-inter.text-6xl.tracking-tighter, .tracking-tighter .font-inter .text-6xl, .tracking-tighter .font-inter.text-6xl {
+  line-height: 1;
+  font-size: 3.75rem;
+  letter-spacing: -0.072294751em;
+}
+
+.font-inter .text-6xl .tracking-tight, .font-inter .text-6xl.tracking-tight, .font-inter.text-6xl .tracking-tight, .font-inter.text-6xl.tracking-tight, .tracking-tight .font-inter .text-6xl, .tracking-tight .font-inter.text-6xl {
+  line-height: 1;
+  font-size: 3.75rem;
+  letter-spacing: -0.047294751em;
+}
+
+.font-inter .text-6xl .tracking-normal, .font-inter .text-6xl.tracking-normal, .font-inter.text-6xl .tracking-normal, .font-inter.text-6xl.tracking-normal, .tracking-normal .font-inter .text-6xl, .tracking-normal .font-inter.text-6xl {
+  line-height: 1;
+  font-size: 3.75rem;
+  letter-spacing: -0.022294751em;
+}
+
+.font-inter .text-6xl .tracking-wide, .font-inter .text-6xl.tracking-wide, .font-inter.text-6xl .tracking-wide, .font-inter.text-6xl.tracking-wide, .tracking-wide .font-inter .text-6xl, .tracking-wide .font-inter.text-6xl {
+  line-height: 1;
+  font-size: 3.75rem;
+  letter-spacing: 0.002705249em;
+}
+
+.font-inter .text-6xl .tracking-wider, .font-inter .text-6xl.tracking-wider, .font-inter.text-6xl .tracking-wider, .font-inter.text-6xl.tracking-wider, .tracking-wider .font-inter .text-6xl, .tracking-wider .font-inter.text-6xl {
+  line-height: 1;
+  font-size: 3.75rem;
+  letter-spacing: 0.027705249em;
+}
+
+.font-inter .text-6xl .tracking-widest, .font-inter .text-6xl.tracking-widest, .font-inter.text-6xl .tracking-widest, .font-inter.text-6xl.tracking-widest, .tracking-widest .font-inter .text-6xl, .tracking-widest .font-inter.text-6xl {
+  line-height: 1;
+  font-size: 3.75rem;
+  letter-spacing: 0.077705249em;
+}
+
+.font-inter .text-7xl, .font-inter.text-7xl {
+  line-height: 1;
+  font-size: 4.5rem;
+  letter-spacing: -0.022299353em;
+}
+
+.font-inter .text-7xl .tracking-tighter, .font-inter .text-7xl.tracking-tighter, .font-inter.text-7xl .tracking-tighter, .font-inter.text-7xl.tracking-tighter, .tracking-tighter .font-inter .text-7xl, .tracking-tighter .font-inter.text-7xl {
+  line-height: 1;
+  font-size: 4.5rem;
+  letter-spacing: -0.072299353em;
+}
+
+.font-inter .text-7xl .tracking-tight, .font-inter .text-7xl.tracking-tight, .font-inter.text-7xl .tracking-tight, .font-inter.text-7xl.tracking-tight, .tracking-tight .font-inter .text-7xl, .tracking-tight .font-inter.text-7xl {
+  line-height: 1;
+  font-size: 4.5rem;
+  letter-spacing: -0.047299353em;
+}
+
+.font-inter .text-7xl .tracking-normal, .font-inter .text-7xl.tracking-normal, .font-inter.text-7xl .tracking-normal, .font-inter.text-7xl.tracking-normal, .tracking-normal .font-inter .text-7xl, .tracking-normal .font-inter.text-7xl {
+  line-height: 1;
+  font-size: 4.5rem;
+  letter-spacing: -0.022299353em;
+}
+
+.font-inter .text-7xl .tracking-wide, .font-inter .text-7xl.tracking-wide, .font-inter.text-7xl .tracking-wide, .font-inter.text-7xl.tracking-wide, .tracking-wide .font-inter .text-7xl, .tracking-wide .font-inter.text-7xl {
+  line-height: 1;
+  font-size: 4.5rem;
+  letter-spacing: 0.002700647em;
+}
+
+.font-inter .text-7xl .tracking-wider, .font-inter .text-7xl.tracking-wider, .font-inter.text-7xl .tracking-wider, .font-inter.text-7xl.tracking-wider, .tracking-wider .font-inter .text-7xl, .tracking-wider .font-inter.text-7xl {
+  line-height: 1;
+  font-size: 4.5rem;
+  letter-spacing: 0.027700647em;
+}
+
+.font-inter .text-7xl .tracking-widest, .font-inter .text-7xl.tracking-widest, .font-inter.text-7xl .tracking-widest, .font-inter.text-7xl.tracking-widest, .tracking-widest .font-inter .text-7xl, .tracking-widest .font-inter.text-7xl {
+  line-height: 1;
+  font-size: 4.5rem;
+  letter-spacing: 0.077700647em;
+}
+
+.font-inter .text-8xl, .font-inter.text-8xl {
+  line-height: 1;
+  font-size: 6rem;
+  letter-spacing: -0.02229999em;
+}
+
+.font-inter .text-8xl .tracking-tighter, .font-inter .text-8xl.tracking-tighter, .font-inter.text-8xl .tracking-tighter, .font-inter.text-8xl.tracking-tighter, .tracking-tighter .font-inter .text-8xl, .tracking-tighter .font-inter.text-8xl {
+  line-height: 1;
+  font-size: 6rem;
+  letter-spacing: -0.07229999em;
+}
+
+.font-inter .text-8xl .tracking-tight, .font-inter .text-8xl.tracking-tight, .font-inter.text-8xl .tracking-tight, .font-inter.text-8xl.tracking-tight, .tracking-tight .font-inter .text-8xl, .tracking-tight .font-inter.text-8xl {
+  line-height: 1;
+  font-size: 6rem;
+  letter-spacing: -0.04729999em;
+}
+
+.font-inter .text-8xl .tracking-normal, .font-inter .text-8xl.tracking-normal, .font-inter.text-8xl .tracking-normal, .font-inter.text-8xl.tracking-normal, .tracking-normal .font-inter .text-8xl, .tracking-normal .font-inter.text-8xl {
+  line-height: 1;
+  font-size: 6rem;
+  letter-spacing: -0.02229999em;
+}
+
+.font-inter .text-8xl .tracking-wide, .font-inter .text-8xl.tracking-wide, .font-inter.text-8xl .tracking-wide, .font-inter.text-8xl.tracking-wide, .tracking-wide .font-inter .text-8xl, .tracking-wide .font-inter.text-8xl {
+  line-height: 1;
+  font-size: 6rem;
+  letter-spacing: 0.00270001em;
+}
+
+.font-inter .text-8xl .tracking-wider, .font-inter .text-8xl.tracking-wider, .font-inter.text-8xl .tracking-wider, .font-inter.text-8xl.tracking-wider, .tracking-wider .font-inter .text-8xl, .tracking-wider .font-inter.text-8xl {
+  line-height: 1;
+  font-size: 6rem;
+  letter-spacing: 0.02770001em;
+}
+
+.font-inter .text-8xl .tracking-widest, .font-inter .text-8xl.tracking-widest, .font-inter.text-8xl .tracking-widest, .font-inter.text-8xl.tracking-widest, .tracking-widest .font-inter .text-8xl, .tracking-widest .font-inter.text-8xl {
+  line-height: 1;
+  font-size: 6rem;
+  letter-spacing: 0.07770001em;
+}
+
+.font-inter .text-9xl, .font-inter.text-9xl {
+  line-height: 1;
+  font-size: 8rem;
+  letter-spacing: -0.0223em;
+}
+
+.font-inter .text-9xl .tracking-tighter, .font-inter .text-9xl.tracking-tighter, .font-inter.text-9xl .tracking-tighter, .font-inter.text-9xl.tracking-tighter, .tracking-tighter .font-inter .text-9xl, .tracking-tighter .font-inter.text-9xl {
+  line-height: 1;
+  font-size: 8rem;
+  letter-spacing: -0.0723em;
+}
+
+.font-inter .text-9xl .tracking-tight, .font-inter .text-9xl.tracking-tight, .font-inter.text-9xl .tracking-tight, .font-inter.text-9xl.tracking-tight, .tracking-tight .font-inter .text-9xl, .tracking-tight .font-inter.text-9xl {
+  line-height: 1;
+  font-size: 8rem;
+  letter-spacing: -0.0473em;
+}
+
+.font-inter .text-9xl .tracking-normal, .font-inter .text-9xl.tracking-normal, .font-inter.text-9xl .tracking-normal, .font-inter.text-9xl.tracking-normal, .tracking-normal .font-inter .text-9xl, .tracking-normal .font-inter.text-9xl {
+  line-height: 1;
+  font-size: 8rem;
+  letter-spacing: -0.0223em;
+}
+
+.font-inter .text-9xl .tracking-wide, .font-inter .text-9xl.tracking-wide, .font-inter.text-9xl .tracking-wide, .font-inter.text-9xl.tracking-wide, .tracking-wide .font-inter .text-9xl, .tracking-wide .font-inter.text-9xl {
+  line-height: 1;
+  font-size: 8rem;
+  letter-spacing: 0.0027em;
+}
+
+.font-inter .text-9xl .tracking-wider, .font-inter .text-9xl.tracking-wider, .font-inter.text-9xl .tracking-wider, .font-inter.text-9xl.tracking-wider, .tracking-wider .font-inter .text-9xl, .tracking-wider .font-inter.text-9xl {
+  line-height: 1;
+  font-size: 8rem;
+  letter-spacing: 0.0277em;
+}
+
+.font-inter .text-9xl .tracking-widest, .font-inter .text-9xl.tracking-widest, .font-inter.text-9xl .tracking-widest, .font-inter.text-9xl.tracking-widest, .tracking-widest .font-inter .text-9xl, .tracking-widest .font-inter.text-9xl {
+  line-height: 1;
+  font-size: 8rem;
+  letter-spacing: 0.0777em;
 }
 
 .display-none {
@@ -836,24 +1626,12 @@ span::selection {
   color: #0e0f11;
 }
 
-.hover\:bg-lightHover\/70:hover {
-  background-color: rgb(192 196 177 / 0.7);
-}
-
 .hover\:bg-lightHover\/50:hover {
   background-color: rgb(192 196 177 / 0.5);
 }
 
-.hover\:fill-violet-300:hover {
-  fill: #c4b5fd;
-}
-
 .hover\:fill-violet-600:hover {
   fill: #7c3aed;
-}
-
-.hover\:stroke-violet-300:hover {
-  stroke: #c4b5fd;
 }
 
 .hover\:text-violet-300:hover {
@@ -864,11 +1642,6 @@ span::selection {
 .hover\:text-violet-600:hover {
   --tw-text-opacity: 1;
   color: rgb(124 58 237 / var(--tw-text-opacity));
-}
-
-.hover\:text-neutral-800:hover {
-  --tw-text-opacity: 1;
-  color: rgb(38 38 38 / var(--tw-text-opacity));
 }
 
 .hover\:text-neutral-700:hover {
@@ -899,9 +1672,18 @@ span::selection {
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
+.dark .dark\:border-violet-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(196 181 253 / var(--tw-border-opacity));
+}
+
 .dark .dark\:bg-darkBG {
   --tw-bg-opacity: 1;
   background-color: rgb(30 33 36 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-darkHover\/70 {
+  background-color: rgb(58 62 70 / 0.7);
 }
 
 .dark .dark\:text-violet-50 {
@@ -914,8 +1696,13 @@ span::selection {
   color: rgb(196 181 253 / var(--tw-text-opacity));
 }
 
-.dark .dark\:hover\:bg-darkHover\/70:hover {
-  background-color: rgb(58 62 70 / 0.7);
+.dark .dark\:text-violet-400 {
+  --tw-text-opacity: 1;
+  color: rgb(167 139 250 / var(--tw-text-opacity));
+}
+
+.dark .dark\:decoration-violet-300 {
+  text-decoration-color: #c4b5fd;
 }
 
 .dark .dark\:hover\:bg-darkHover\/50:hover {
@@ -927,21 +1714,22 @@ span::selection {
   color: rgb(196 181 253 / var(--tw-text-opacity));
 }
 
+.dark .dark\:hover\:text-violet-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(124 58 237 / var(--tw-text-opacity));
+}
+
+.dark .dark\:hover\:decoration-violet-600:hover {
+  text-decoration-color: #7c3aed;
+}
+
 @media (min-width: 360px) {
   .sm\:mt-6 {
     margin-top: 1.5rem;
   }
 
-  .sm\:hidden {
-    display: none;
-  }
-
   .sm\:h-32 {
     height: 8rem;
-  }
-
-  .sm\:h-12 {
-    height: 3rem;
   }
 
   .sm\:w-32 {
@@ -970,6 +1758,174 @@ span::selection {
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .font-inter .sm\:text-sm,.sm\:text-sm .font-inter {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    letter-spacing: -0.006223544em;
+  }
+
+  .font-inter .sm\:text-sm .tracking-tighter, .font-inter .sm\:text-sm.tracking-tighter,.sm\:text-sm .font-inter .tracking-tighter,.sm\:text-sm .font-inter.tracking-tighter, .tracking-tighter .font-inter .sm\:text-sm, .tracking-tighter .sm\:text-sm.font-inter {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    letter-spacing: -0.056223544em;
+  }
+
+  .font-inter .sm\:text-sm .tracking-tight, .font-inter .sm\:text-sm.tracking-tight,.sm\:text-sm .font-inter .tracking-tight,.sm\:text-sm .font-inter.tracking-tight, .tracking-tight .font-inter .sm\:text-sm, .tracking-tight .sm\:text-sm.font-inter {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    letter-spacing: -0.031223544em;
+  }
+
+  .font-inter .sm\:text-sm .tracking-normal, .font-inter .sm\:text-sm.tracking-normal,.sm\:text-sm .font-inter .tracking-normal,.sm\:text-sm .font-inter.tracking-normal, .tracking-normal .font-inter .sm\:text-sm, .tracking-normal .sm\:text-sm.font-inter {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    letter-spacing: -0.006223544em;
+  }
+
+  .font-inter .sm\:text-sm .tracking-wide, .font-inter .sm\:text-sm.tracking-wide,.sm\:text-sm .font-inter .tracking-wide,.sm\:text-sm .font-inter.tracking-wide, .tracking-wide .font-inter .sm\:text-sm, .tracking-wide .sm\:text-sm.font-inter {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    letter-spacing: 0.018776456em;
+  }
+
+  .font-inter .sm\:text-sm .tracking-wider, .font-inter .sm\:text-sm.tracking-wider,.sm\:text-sm .font-inter .tracking-wider,.sm\:text-sm .font-inter.tracking-wider, .tracking-wider .font-inter .sm\:text-sm, .tracking-wider .sm\:text-sm.font-inter {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    letter-spacing: 0.043776456em;
+  }
+
+  .font-inter .sm\:text-sm .tracking-widest, .font-inter .sm\:text-sm.tracking-widest,.sm\:text-sm .font-inter .tracking-widest,.sm\:text-sm .font-inter.tracking-widest, .tracking-widest .font-inter .sm\:text-sm, .tracking-widest .sm\:text-sm.font-inter {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    letter-spacing: 0.093776456em;
+  }
+
+  .font-inter .sm\:text-lg,.sm\:text-lg .font-inter {
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    letter-spacing: -0.014300686em;
+  }
+
+  .font-inter .sm\:text-lg .tracking-tighter, .font-inter .sm\:text-lg.tracking-tighter,.sm\:text-lg .font-inter .tracking-tighter,.sm\:text-lg .font-inter.tracking-tighter, .tracking-tighter .font-inter .sm\:text-lg, .tracking-tighter .sm\:text-lg.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    letter-spacing: -0.064300686em;
+  }
+
+  .font-inter .sm\:text-lg .tracking-tight, .font-inter .sm\:text-lg.tracking-tight,.sm\:text-lg .font-inter .tracking-tight,.sm\:text-lg .font-inter.tracking-tight, .tracking-tight .font-inter .sm\:text-lg, .tracking-tight .sm\:text-lg.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    letter-spacing: -0.039300686em;
+  }
+
+  .font-inter .sm\:text-lg .tracking-normal, .font-inter .sm\:text-lg.tracking-normal,.sm\:text-lg .font-inter .tracking-normal,.sm\:text-lg .font-inter.tracking-normal, .tracking-normal .font-inter .sm\:text-lg, .tracking-normal .sm\:text-lg.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    letter-spacing: -0.014300686em;
+  }
+
+  .font-inter .sm\:text-lg .tracking-wide, .font-inter .sm\:text-lg.tracking-wide,.sm\:text-lg .font-inter .tracking-wide,.sm\:text-lg .font-inter.tracking-wide, .tracking-wide .font-inter .sm\:text-lg, .tracking-wide .sm\:text-lg.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    letter-spacing: 0.010699314em;
+  }
+
+  .font-inter .sm\:text-lg .tracking-wider, .font-inter .sm\:text-lg.tracking-wider,.sm\:text-lg .font-inter .tracking-wider,.sm\:text-lg .font-inter.tracking-wider, .tracking-wider .font-inter .sm\:text-lg, .tracking-wider .sm\:text-lg.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    letter-spacing: 0.035699314em;
+  }
+
+  .font-inter .sm\:text-lg .tracking-widest, .font-inter .sm\:text-lg.tracking-widest,.sm\:text-lg .font-inter .tracking-widest,.sm\:text-lg .font-inter.tracking-widest, .tracking-widest .font-inter .sm\:text-lg, .tracking-widest .sm\:text-lg.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    letter-spacing: 0.085699314em;
+  }
+
+  .font-inter .sm\:text-xl,.sm\:text-xl .font-inter {
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    letter-spacing: -0.016657339em;
+  }
+
+  .font-inter .sm\:text-xl .tracking-tighter, .font-inter .sm\:text-xl.tracking-tighter,.sm\:text-xl .font-inter .tracking-tighter,.sm\:text-xl .font-inter.tracking-tighter, .tracking-tighter .font-inter .sm\:text-xl, .tracking-tighter .sm\:text-xl.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    letter-spacing: -0.066657339em;
+  }
+
+  .font-inter .sm\:text-xl .tracking-tight, .font-inter .sm\:text-xl.tracking-tight,.sm\:text-xl .font-inter .tracking-tight,.sm\:text-xl .font-inter.tracking-tight, .tracking-tight .font-inter .sm\:text-xl, .tracking-tight .sm\:text-xl.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    letter-spacing: -0.041657339em;
+  }
+
+  .font-inter .sm\:text-xl .tracking-normal, .font-inter .sm\:text-xl.tracking-normal,.sm\:text-xl .font-inter .tracking-normal,.sm\:text-xl .font-inter.tracking-normal, .tracking-normal .font-inter .sm\:text-xl, .tracking-normal .sm\:text-xl.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    letter-spacing: -0.016657339em;
+  }
+
+  .font-inter .sm\:text-xl .tracking-wide, .font-inter .sm\:text-xl.tracking-wide,.sm\:text-xl .font-inter .tracking-wide,.sm\:text-xl .font-inter.tracking-wide, .tracking-wide .font-inter .sm\:text-xl, .tracking-wide .sm\:text-xl.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    letter-spacing: 0.008342661em;
+  }
+
+  .font-inter .sm\:text-xl .tracking-wider, .font-inter .sm\:text-xl.tracking-wider,.sm\:text-xl .font-inter .tracking-wider,.sm\:text-xl .font-inter.tracking-wider, .tracking-wider .font-inter .sm\:text-xl, .tracking-wider .sm\:text-xl.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    letter-spacing: 0.033342661em;
+  }
+
+  .font-inter .sm\:text-xl .tracking-widest, .font-inter .sm\:text-xl.tracking-widest,.sm\:text-xl .font-inter .tracking-widest,.sm\:text-xl .font-inter.tracking-widest, .tracking-widest .font-inter .sm\:text-xl, .tracking-widest .sm\:text-xl.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    letter-spacing: 0.083342661em;
+  }
+
+  .font-inter .sm\:text-4xl,.sm\:text-4xl .font-inter {
+    line-height: 2.5rem;
+    font-size: 2.25rem;
+    letter-spacing: -0.021954113em;
+  }
+
+  .font-inter .sm\:text-4xl .tracking-tighter, .font-inter .sm\:text-4xl.tracking-tighter,.sm\:text-4xl .font-inter .tracking-tighter,.sm\:text-4xl .font-inter.tracking-tighter, .tracking-tighter .font-inter .sm\:text-4xl, .tracking-tighter .sm\:text-4xl.font-inter {
+    line-height: 2.5rem;
+    font-size: 2.25rem;
+    letter-spacing: -0.071954113em;
+  }
+
+  .font-inter .sm\:text-4xl .tracking-tight, .font-inter .sm\:text-4xl.tracking-tight,.sm\:text-4xl .font-inter .tracking-tight,.sm\:text-4xl .font-inter.tracking-tight, .tracking-tight .font-inter .sm\:text-4xl, .tracking-tight .sm\:text-4xl.font-inter {
+    line-height: 2.5rem;
+    font-size: 2.25rem;
+    letter-spacing: -0.046954113em;
+  }
+
+  .font-inter .sm\:text-4xl .tracking-normal, .font-inter .sm\:text-4xl.tracking-normal,.sm\:text-4xl .font-inter .tracking-normal,.sm\:text-4xl .font-inter.tracking-normal, .tracking-normal .font-inter .sm\:text-4xl, .tracking-normal .sm\:text-4xl.font-inter {
+    line-height: 2.5rem;
+    font-size: 2.25rem;
+    letter-spacing: -0.021954113em;
+  }
+
+  .font-inter .sm\:text-4xl .tracking-wide, .font-inter .sm\:text-4xl.tracking-wide,.sm\:text-4xl .font-inter .tracking-wide,.sm\:text-4xl .font-inter.tracking-wide, .tracking-wide .font-inter .sm\:text-4xl, .tracking-wide .sm\:text-4xl.font-inter {
+    line-height: 2.5rem;
+    font-size: 2.25rem;
+    letter-spacing: 0.003045887em;
+  }
+
+  .font-inter .sm\:text-4xl .tracking-wider, .font-inter .sm\:text-4xl.tracking-wider,.sm\:text-4xl .font-inter .tracking-wider,.sm\:text-4xl .font-inter.tracking-wider, .tracking-wider .font-inter .sm\:text-4xl, .tracking-wider .sm\:text-4xl.font-inter {
+    line-height: 2.5rem;
+    font-size: 2.25rem;
+    letter-spacing: 0.028045887em;
+  }
+
+  .font-inter .sm\:text-4xl .tracking-widest, .font-inter .sm\:text-4xl.tracking-widest,.sm\:text-4xl .font-inter .tracking-widest,.sm\:text-4xl .font-inter.tracking-widest, .tracking-widest .font-inter .sm\:text-4xl, .tracking-widest .sm\:text-4xl.font-inter {
+    line-height: 2.5rem;
+    font-size: 2.25rem;
+    letter-spacing: 0.078045887em;
   }
 }
 
@@ -1013,5 +1969,215 @@ span::selection {
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .font-inter .md\:text-lg,.md\:text-lg .font-inter {
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    letter-spacing: -0.014300686em;
+  }
+
+  .font-inter .md\:text-lg .tracking-tighter, .font-inter .md\:text-lg.tracking-tighter,.md\:text-lg .font-inter .tracking-tighter,.md\:text-lg .font-inter.tracking-tighter, .tracking-tighter .font-inter .md\:text-lg, .tracking-tighter .md\:text-lg.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    letter-spacing: -0.064300686em;
+  }
+
+  .font-inter .md\:text-lg .tracking-tight, .font-inter .md\:text-lg.tracking-tight,.md\:text-lg .font-inter .tracking-tight,.md\:text-lg .font-inter.tracking-tight, .tracking-tight .font-inter .md\:text-lg, .tracking-tight .md\:text-lg.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    letter-spacing: -0.039300686em;
+  }
+
+  .font-inter .md\:text-lg .tracking-normal, .font-inter .md\:text-lg.tracking-normal,.md\:text-lg .font-inter .tracking-normal,.md\:text-lg .font-inter.tracking-normal, .tracking-normal .font-inter .md\:text-lg, .tracking-normal .md\:text-lg.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    letter-spacing: -0.014300686em;
+  }
+
+  .font-inter .md\:text-lg .tracking-wide, .font-inter .md\:text-lg.tracking-wide,.md\:text-lg .font-inter .tracking-wide,.md\:text-lg .font-inter.tracking-wide, .tracking-wide .font-inter .md\:text-lg, .tracking-wide .md\:text-lg.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    letter-spacing: 0.010699314em;
+  }
+
+  .font-inter .md\:text-lg .tracking-wider, .font-inter .md\:text-lg.tracking-wider,.md\:text-lg .font-inter .tracking-wider,.md\:text-lg .font-inter.tracking-wider, .tracking-wider .font-inter .md\:text-lg, .tracking-wider .md\:text-lg.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    letter-spacing: 0.035699314em;
+  }
+
+  .font-inter .md\:text-lg .tracking-widest, .font-inter .md\:text-lg.tracking-widest,.md\:text-lg .font-inter .tracking-widest,.md\:text-lg .font-inter.tracking-widest, .tracking-widest .font-inter .md\:text-lg, .tracking-widest .md\:text-lg.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    letter-spacing: 0.085699314em;
+  }
+
+  .font-inter .md\:text-xl,.md\:text-xl .font-inter {
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    letter-spacing: -0.016657339em;
+  }
+
+  .font-inter .md\:text-xl .tracking-tighter, .font-inter .md\:text-xl.tracking-tighter,.md\:text-xl .font-inter .tracking-tighter,.md\:text-xl .font-inter.tracking-tighter, .tracking-tighter .font-inter .md\:text-xl, .tracking-tighter .md\:text-xl.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    letter-spacing: -0.066657339em;
+  }
+
+  .font-inter .md\:text-xl .tracking-tight, .font-inter .md\:text-xl.tracking-tight,.md\:text-xl .font-inter .tracking-tight,.md\:text-xl .font-inter.tracking-tight, .tracking-tight .font-inter .md\:text-xl, .tracking-tight .md\:text-xl.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    letter-spacing: -0.041657339em;
+  }
+
+  .font-inter .md\:text-xl .tracking-normal, .font-inter .md\:text-xl.tracking-normal,.md\:text-xl .font-inter .tracking-normal,.md\:text-xl .font-inter.tracking-normal, .tracking-normal .font-inter .md\:text-xl, .tracking-normal .md\:text-xl.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    letter-spacing: -0.016657339em;
+  }
+
+  .font-inter .md\:text-xl .tracking-wide, .font-inter .md\:text-xl.tracking-wide,.md\:text-xl .font-inter .tracking-wide,.md\:text-xl .font-inter.tracking-wide, .tracking-wide .font-inter .md\:text-xl, .tracking-wide .md\:text-xl.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    letter-spacing: 0.008342661em;
+  }
+
+  .font-inter .md\:text-xl .tracking-wider, .font-inter .md\:text-xl.tracking-wider,.md\:text-xl .font-inter .tracking-wider,.md\:text-xl .font-inter.tracking-wider, .tracking-wider .font-inter .md\:text-xl, .tracking-wider .md\:text-xl.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    letter-spacing: 0.033342661em;
+  }
+
+  .font-inter .md\:text-xl .tracking-widest, .font-inter .md\:text-xl.tracking-widest,.md\:text-xl .font-inter .tracking-widest,.md\:text-xl .font-inter.tracking-widest, .tracking-widest .font-inter .md\:text-xl, .tracking-widest .md\:text-xl.font-inter {
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+    letter-spacing: 0.083342661em;
+  }
+
+  .font-inter .md\:text-2xl,.md\:text-2xl .font-inter {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: -0.019492328em;
+  }
+
+  .font-inter .md\:text-2xl .tracking-tighter, .font-inter .md\:text-2xl.tracking-tighter,.md\:text-2xl .font-inter .tracking-tighter,.md\:text-2xl .font-inter.tracking-tighter, .tracking-tighter .font-inter .md\:text-2xl, .tracking-tighter .md\:text-2xl.font-inter {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: -0.069492328em;
+  }
+
+  .font-inter .md\:text-2xl .tracking-tight, .font-inter .md\:text-2xl.tracking-tight,.md\:text-2xl .font-inter .tracking-tight,.md\:text-2xl .font-inter.tracking-tight, .tracking-tight .font-inter .md\:text-2xl, .tracking-tight .md\:text-2xl.font-inter {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: -0.044492328em;
+  }
+
+  .font-inter .md\:text-2xl .tracking-normal, .font-inter .md\:text-2xl.tracking-normal,.md\:text-2xl .font-inter .tracking-normal,.md\:text-2xl .font-inter.tracking-normal, .tracking-normal .font-inter .md\:text-2xl, .tracking-normal .md\:text-2xl.font-inter {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: -0.019492328em;
+  }
+
+  .font-inter .md\:text-2xl .tracking-wide, .font-inter .md\:text-2xl.tracking-wide,.md\:text-2xl .font-inter .tracking-wide,.md\:text-2xl .font-inter.tracking-wide, .tracking-wide .font-inter .md\:text-2xl, .tracking-wide .md\:text-2xl.font-inter {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.005507672em;
+  }
+
+  .font-inter .md\:text-2xl .tracking-wider, .font-inter .md\:text-2xl.tracking-wider,.md\:text-2xl .font-inter .tracking-wider,.md\:text-2xl .font-inter.tracking-wider, .tracking-wider .font-inter .md\:text-2xl, .tracking-wider .md\:text-2xl.font-inter {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.030507672em;
+  }
+
+  .font-inter .md\:text-2xl .tracking-widest, .font-inter .md\:text-2xl.tracking-widest,.md\:text-2xl .font-inter .tracking-widest,.md\:text-2xl .font-inter.tracking-widest, .tracking-widest .font-inter .md\:text-2xl, .tracking-widest .md\:text-2xl.font-inter {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.080507672em;
+  }
+
+  .font-inter .md\:text-3xl,.md\:text-3xl .font-inter {
+    line-height: 2.25rem;
+    font-size: 1.875rem;
+    letter-spacing: -0.021314537em;
+  }
+
+  .font-inter .md\:text-3xl .tracking-tighter, .font-inter .md\:text-3xl.tracking-tighter,.md\:text-3xl .font-inter .tracking-tighter,.md\:text-3xl .font-inter.tracking-tighter, .tracking-tighter .font-inter .md\:text-3xl, .tracking-tighter .md\:text-3xl.font-inter {
+    line-height: 2.25rem;
+    font-size: 1.875rem;
+    letter-spacing: -0.071314537em;
+  }
+
+  .font-inter .md\:text-3xl .tracking-tight, .font-inter .md\:text-3xl.tracking-tight,.md\:text-3xl .font-inter .tracking-tight,.md\:text-3xl .font-inter.tracking-tight, .tracking-tight .font-inter .md\:text-3xl, .tracking-tight .md\:text-3xl.font-inter {
+    line-height: 2.25rem;
+    font-size: 1.875rem;
+    letter-spacing: -0.046314537em;
+  }
+
+  .font-inter .md\:text-3xl .tracking-normal, .font-inter .md\:text-3xl.tracking-normal,.md\:text-3xl .font-inter .tracking-normal,.md\:text-3xl .font-inter.tracking-normal, .tracking-normal .font-inter .md\:text-3xl, .tracking-normal .md\:text-3xl.font-inter {
+    line-height: 2.25rem;
+    font-size: 1.875rem;
+    letter-spacing: -0.021314537em;
+  }
+
+  .font-inter .md\:text-3xl .tracking-wide, .font-inter .md\:text-3xl.tracking-wide,.md\:text-3xl .font-inter .tracking-wide,.md\:text-3xl .font-inter.tracking-wide, .tracking-wide .font-inter .md\:text-3xl, .tracking-wide .md\:text-3xl.font-inter {
+    line-height: 2.25rem;
+    font-size: 1.875rem;
+    letter-spacing: 0.003685463em;
+  }
+
+  .font-inter .md\:text-3xl .tracking-wider, .font-inter .md\:text-3xl.tracking-wider,.md\:text-3xl .font-inter .tracking-wider,.md\:text-3xl .font-inter.tracking-wider, .tracking-wider .font-inter .md\:text-3xl, .tracking-wider .md\:text-3xl.font-inter {
+    line-height: 2.25rem;
+    font-size: 1.875rem;
+    letter-spacing: 0.028685463em;
+  }
+
+  .font-inter .md\:text-3xl .tracking-widest, .font-inter .md\:text-3xl.tracking-widest,.md\:text-3xl .font-inter .tracking-widest,.md\:text-3xl .font-inter.tracking-widest, .tracking-widest .font-inter .md\:text-3xl, .tracking-widest .md\:text-3xl.font-inter {
+    line-height: 2.25rem;
+    font-size: 1.875rem;
+    letter-spacing: 0.078685463em;
+  }
+
+  .font-inter .md\:text-5xl,.md\:text-5xl .font-inter {
+    line-height: 1;
+    font-size: 3rem;
+    letter-spacing: -0.022257389em;
+  }
+
+  .font-inter .md\:text-5xl .tracking-tighter, .font-inter .md\:text-5xl.tracking-tighter,.md\:text-5xl .font-inter .tracking-tighter,.md\:text-5xl .font-inter.tracking-tighter, .tracking-tighter .font-inter .md\:text-5xl, .tracking-tighter .md\:text-5xl.font-inter {
+    line-height: 1;
+    font-size: 3rem;
+    letter-spacing: -0.072257389em;
+  }
+
+  .font-inter .md\:text-5xl .tracking-tight, .font-inter .md\:text-5xl.tracking-tight,.md\:text-5xl .font-inter .tracking-tight,.md\:text-5xl .font-inter.tracking-tight, .tracking-tight .font-inter .md\:text-5xl, .tracking-tight .md\:text-5xl.font-inter {
+    line-height: 1;
+    font-size: 3rem;
+    letter-spacing: -0.047257389em;
+  }
+
+  .font-inter .md\:text-5xl .tracking-normal, .font-inter .md\:text-5xl.tracking-normal,.md\:text-5xl .font-inter .tracking-normal,.md\:text-5xl .font-inter.tracking-normal, .tracking-normal .font-inter .md\:text-5xl, .tracking-normal .md\:text-5xl.font-inter {
+    line-height: 1;
+    font-size: 3rem;
+    letter-spacing: -0.022257389em;
+  }
+
+  .font-inter .md\:text-5xl .tracking-wide, .font-inter .md\:text-5xl.tracking-wide,.md\:text-5xl .font-inter .tracking-wide,.md\:text-5xl .font-inter.tracking-wide, .tracking-wide .font-inter .md\:text-5xl, .tracking-wide .md\:text-5xl.font-inter {
+    line-height: 1;
+    font-size: 3rem;
+    letter-spacing: 0.002742611em;
+  }
+
+  .font-inter .md\:text-5xl .tracking-wider, .font-inter .md\:text-5xl.tracking-wider,.md\:text-5xl .font-inter .tracking-wider,.md\:text-5xl .font-inter.tracking-wider, .tracking-wider .font-inter .md\:text-5xl, .tracking-wider .md\:text-5xl.font-inter {
+    line-height: 1;
+    font-size: 3rem;
+    letter-spacing: 0.027742611em;
+  }
+
+  .font-inter .md\:text-5xl .tracking-widest, .font-inter .md\:text-5xl.tracking-widest,.md\:text-5xl .font-inter .tracking-widest,.md\:text-5xl .font-inter.tracking-widest, .tracking-widest .font-inter .md\:text-5xl, .tracking-widest .md\:text-5xl.font-inter {
+    line-height: 1;
+    font-size: 3rem;
+    letter-spacing: 0.077742611em;
   }
 }

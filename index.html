@@ -8,88 +8,72 @@
     <title>Accueil - Romain Croquelois</title>
   </head>
   <body
-    class="flex min-h-screen flex-col overflow-auto bg-lightBG dark:bg-darkBG">
+    class="flex min-h-screen flex-col overflow-auto bg-lightBG text-neutral-900 font-feature-default font-inter dark:bg-darkBG dark:text-violet-50">
     <!-------------------- TITLE -------------------->
-    <div
-      class="mt-10 flex flex-row justify-center font-extrabold text-neutral-900 dark:text-violet-50 sm:text-4xl md:text-5xl">
-      <h1>Romain Croquelois</h1>
-    </div>
-    <!-------------------- MENUS -------------------->
-    <div
-      class="flex flex-row justify-center space-x-3 font-medium sm:mt-6 sm:text-lg md:mt-9 md:text-xl">
-      <a
-        class="rounded-md px-4 py-2 text-neutral-700 drop-shadow-3xl hover:bg-lightHover/70 dark:text-violet-300 dark:hover:bg-darkHover/70"
-        >Accueil</a
-      >
-      <a
-        href="projects.html"
-        class="text-violet-00 rounded-md px-4 py-2 hover:bg-lightHover/50 hover:text-neutral-700 hover:drop-shadow-3xl hover:backdrop-blur-sm dark:text-violet-50 dark:hover:bg-darkHover/50 dark:hover:text-violet-300"
-        >Projets</a
-      >
-      <a
-        href="contact.html"
-        class="rounded-md px-4 py-2 text-neutral-900 hover:bg-lightHover/50 hover:text-neutral-700 hover:drop-shadow-3xl dark:text-violet-50 dark:hover:bg-darkHover/50 dark:hover:text-violet-300"
-        >Contact</a
-      >
-      <img
-        class="moon h-12 w-12 cursor-pointer rounded-md px-4 py-2 hover:bg-lightHover/50 hover:drop-shadow-3xl dark:hover:bg-darkHover/50 sm:hidden"
-        src="./ressources/images/moon.svg"
-        alt="" />
-      <img
-        class="sun h-12 w-12 cursor-pointer rounded-md px-4 py-2 hover:bg-lightHover/50 hover:drop-shadow-3xl dark:hover:bg-darkHover/50 sm:hidden"
-        src="./ressources/images/sun.svg"
-        alt="" />
-    </div>
-    <!-------------------- DARK/LIGHT MODE BUTTON -------------------->
-    <div></div>
-    <!-------------------- INTRODUCTION -------------------->
-    <div
-      class="mt-12 flex flex-row justify-center text-neutral-900 dark:text-violet-50">
-      <h2 class="font-semibold sm:text-xl md:text-3xl">Salut ! 😁</h2>
-    </div>
-    <div class="mx-auto mt-12">
-      <img
-        class="rounded-lg border-4 border-violet-300 object-cover sm:h-32 sm:w-32 md:h-64 md:w-64"
-        src="./ressources/images/avatar.webp" />
-    </div>
-    <div class="mx-10 mt-10 block text-neutral-900 dark:text-violet-50">
-      <p class="sm:text-left md:text-center">
-        Moi c'est
+    <header>
+      <div
+        class="mt-10 flex flex-row justify-center font-extrabold sm:text-4xl md:text-5xl">
+        <h1>Romain Croquelois</h1>
+      </div>
+      <!-------------------- MENUS -------------------->
+      <div
+        class="flex flex-row justify-center space-x-3 font-semibold sm:mt-6 sm:text-lg md:mt-9 md:text-xl">
+        <!-------------------- MENU 1 -------------------->
         <a
-          type="button"
-          class="text-lg font-semibold underline decoration-violet-300 md:text-2xl"
-          >Romain Croquelois</a
+          class="rounded-md bg-lightHover/70 px-4 py-2 text-neutral-700 drop-shadow-3xl dark:bg-darkHover/70 dark:text-violet-300"
+          >Accueil</a
         >
-        et je suis un jeune développeur Web débutant.
-      </p>
-    </div>
-    <div class="mx-10 mt-5 block text-neutral-900 dark:text-violet-50">
-      <p class="sm:text-left md:text-center">
-        Je passe une formation en tant que développeur Web et Web mobile suite à
-        une reprise d'études en 2021 à l'université des sciences Jean-Perrin sur
-        Lens.
-      </p>
-    </div>
-    <div class="mx-10 mt-5 block text-neutral-900 dark:text-violet-50">
-      <p class="sm:text-left md:text-center">
-        J'aime apprendre énormément de domaines dans la vie.
-      </p>
-    </div>
-    <div class="mx-10 mt-5 block text-neutral-900 dark:text-violet-50">
-      <p class="text-lg sm:text-left md:text-center">
-        Besoin de moi pour un projet ?
+        <!-------------------- MENU 2 -------------------->
+        <a
+          href="projects.html"
+          class="rounded-md px-4 py-2 hover:bg-lightHover/50 hover:text-neutral-700 hover:drop-shadow-3xl dark:hover:bg-darkHover/50 dark:hover:text-violet-300"
+          >Projets</a
+        >
+        <!-------------------- MENU 3 -------------------->
         <a
           href="contact.html"
-          class="font-medium text-violet-400 hover:text-violet-600 hover:underline hover:decoration-violet-600 hover:underline-offset-4"
-          >Contactez-moi !</a
+          class="rounded-md px-4 py-2 hover:bg-lightHover/50 hover:text-neutral-700 hover:drop-shadow-3xl dark:hover:bg-darkHover/50 dark:hover:text-violet-300"
+          >Contact</a
         >
-      </p>
-    </div>
-    <!-------------------- FOOTER -------------------->
-    <footer class="mt-auto mb-5">
-      <div class="text-center text-sm text-neutral-900 dark:text-violet-50">
-        Fais avec 💜 - Sheeeeeeeeeesh 🥶
+        <!-------------------- LIGHT / DARK -------------------->
+        <img
+          class="moon h-12 w-12 cursor-pointer rounded-md px-4 py-2 hover:bg-lightHover/50 hover:drop-shadow-3xl dark:hover:bg-darkHover/50"
+          src="./ressources/images/moon.svg" />
+        <img
+          class="sun h-12 w-12 cursor-pointer rounded-md px-4 py-2 hover:bg-lightHover/50 hover:drop-shadow-3xl dark:hover:bg-darkHover/50"
+          src="./ressources/images/sun.svg" />
       </div>
+    </header>
+    <!-------------------- INTRODUCTION -------------------->
+    <section>
+      <div class="mt-12 flex flex-row justify-center">
+        <h2 class="font-semibold sm:text-xl md:text-3xl">Salut ! 😁</h2>
+      </div>
+      <div class="mx-auto mt-12 flex flex-row justify-center">
+        <img
+          class="rounded-lg border-4 border-neutral-700 object-cover dark:border-violet-300 sm:h-32 sm:w-32 md:h-64 md:w-64"
+          src="./ressources/images/avatar.webp" />
+      </div>
+      <div class="mx-10 mt-5 block space-y-2">
+        <p class="sm:text-left md:text-center">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
+          fugiat, nihil officia numquam fugit accusantium, esse ab voluptas sunt
+          excepturi libero rem temporibus, culpa illum debitis! Eius iste sed
+          earum!
+        </p>
+        <p class="sm:text-left md:text-center">
+          Besoin de moi pour un projet ?
+          <a
+            href="contact.html"
+            class="font-medium text-lg hover:underline hover:underline-offset-4 dark:text-violet-400 dark:hover:text-violet-600 dark:hover:decoration-violet-600"
+            >Contactez-moi !</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-------------------- FOOTER -------------------->
+    <footer class="mt-auto">
+      <div class="text-center text-sm">Fais avec 💜 - Sheeeeeeeeeesh 🥶</div>
     </footer>
     <script src="script.js"></script>
   </body>
