@@ -8,46 +8,50 @@
     <title>Contact - Romain Croquelois</title>
   </head>
   <body
-    class="flex min-h-screen flex-col overflow-auto bg-lightBG text-neutral-900 font-feature-default font-inter dark:bg-darkBG dark:text-violet-50">
+    class="font-feature-default flex min-h-screen flex-col overflow-auto bg-lightBG text-neutral-900 font-inter dark:bg-darkBG dark:text-violet-50">
     <!-------------------- TITLE -------------------->
-    <div
-      class="mt-10 flex flex-row justify-center font-extrabold sm:text-4xl md:text-5xl">
-      <h1>Romain Croquelois</h1>
-    </div>
-    <!-------------------- MENUS -------------------->
-    <div
-      class="flex flex-row justify-center space-x-3 font-medium sm:mt-6 sm:text-lg md:mt-9 md:text-xl">
-      <a
-        href="index.html"
-        class="hover:bg-darkGray/50 rounded-md px-4 py-2 text-violet-50 hover:text-violet-300 hover:drop-shadow-3xl"
-        >Accueil</a
-      >
-      <a
-        href="projects.html"
-        class="hover:bg-darkGray/50 rounded-md px-4 py-2 text-violet-50 hover:text-violet-300 hover:drop-shadow-3xl"
-        >Projets</a
-      >
-      <a
-        class="bg-darkGray/70 rounded-md px-4 py-2 text-violet-300 drop-shadow-3xl"
-        >Contact</a
-      >
-      <img
-        class="moon h-12 w-12 cursor-pointer rounded-md px-4 py-2 hover:bg-lightHover/50 hover:drop-shadow-3xl dark:hover:bg-darkHover/50"
-        src="./ressources/images/moon.svg"
-        alt="" />
-      <img
-        class="sun h-12 w-12 cursor-pointer rounded-md px-4 py-2 hover:bg-lightHover/50 hover:drop-shadow-3xl dark:hover:bg-darkHover/50"
-        src="./ressources/images/sun.svg"
-        alt="" />
-    </div>
+    <header>
+      <div
+        class="mt-10 flex flex-row justify-center font-extrabold sm:text-3xl md:text-6xl">
+        <h1>Romain Croquelois</h1>
+      </div>
+      <!-------------------- MENUS -------------------->
+      <div
+        class="flex flex-row justify-center text-center font-semibold sm:ml-16 sm:mt-6 sm:space-x-4 sm:text-base md:mt-9 md:space-x-8 md:text-xl">
+        <!-------------------- MENU 1 -------------------->
+        <a
+          href="index.html"
+          class="rounded-md hover:text-neutral-700 dark:hover:text-violet-300 md:px-4 md:py-2 md:hover:bg-lightHover/50 md:hover:drop-shadow-3xl md:dark:hover:bg-darkHover/50"
+          >Accueil</a
+        >
+        <!-------------------- MENU 2 -------------------->
+        <a
+          href="projects.html"
+          class="rounded-md hover:text-neutral-700 dark:hover:text-violet-300 md:px-4 md:py-2 md:hover:bg-lightHover/50 md:hover:drop-shadow-3xl md:dark:hover:bg-darkHover/50"
+          >Projets</a
+        >
+        <!-------------------- MENU 3 -------------------->
+        <a
+          class="rounded-md text-neutral-700 dark:text-violet-300 md:bg-lightHover/70 md:px-4 md:py-2 md:drop-shadow-3xl md:dark:bg-darkHover/70"
+          >Contact</a
+        >
+        <!-------------------- LIGHT / DARK -------------------->
+        <img
+          class="moon h-12 w-12 cursor-pointer rounded-md sm:invisible md:visible md:px-4 md:py-2 md:hover:bg-lightHover/50 md:hover:drop-shadow-3xl md:dark:hover:bg-darkHover/50"
+          src="./ressources/images/moon.svg" />
+        <img
+          class="sun h-12 w-12 cursor-pointer rounded-md sm:invisible md:visible md:px-4 md:py-2 md:hover:bg-lightHover/50 md:hover:drop-shadow-3xl md:dark:hover:bg-darkHover/50"
+          src="./ressources/images/sun.svg" />
+      </div>
+    </header>
     <!-------------------- CONTACT -------------------->
-    <div class="mt-12 flex flex-row justify-center text-violet-50">
+    <div class="flex flex-row justify-center sm:mt-2 md:mt-12">
       <h2 class="font-medium sm:text-xl md:text-3xl">Mes contacts ! 👀</h2>
     </div>
     <div
-      class="mx-auto mt-12 flex flex-col items-center justify-center font-medium text-violet-50 sm:text-sm md:text-lg">
+      class="mx-auto mt-12 flex flex-col items-center justify-center font-medium sm:text-sm md:text-lg">
       <svg
-        class="fill-violet-400 hover:fill-violet-600"
+        class="dark:fill-violet-400 dark:hover:fill-violet-600"
         width="48"
         height="48"
         viewBox="0 0 24 24">
@@ -60,9 +64,9 @@
         </a>
       </svg>
       <div
-        class="mx-auto mt-12 flex flex-col items-center justify-center font-medium text-violet-50 sm:text-sm md:text-lg">
+        class="mx-auto mt-12 flex flex-col items-center justify-center font-medium sm:text-sm md:text-lg">
         <svg
-          class="fill-violet-400 hover:fill-violet-600"
+          class="dark:fill-violet-400 dark:hover:fill-violet-600"
           width="48"
           height="48"
           viewBox="0 0 24 24">
@@ -78,21 +82,19 @@
     </div>
     <!-------------------- MAIL -------------------->
     <div
-      class="mx-10 mt-10 flex flex-row justify-center text-violet-50 text-lg sm:text-left md:text-center">
+      class="mx-10 mt-10 flex flex-row justify-center text-lg sm:text-left md:text-center">
       <p>
         Vous pouvez aussi me contacter par e-mail →
         <a
           href="mailto:rom.croquelois@gmail.com"
-          class="font-medium text-violet-400 text-lg hover:text-violet-600 hover:underline hover:decoration-violet-600 hover:underline-offset-4 sm:text-left md:text-center"
+          class="font-medium text-neutral-900 text-lg hover:text-neutral-600 hover:underline hover:decoration-neutral-600 hover:underline-offset-4 dark:text-violet-400 dark:hover:text-violet-600 dark:hover:decoration-violet-600 sm:text-left md:text-center"
           >rom.croquelois@gmail.com</a
         >
       </p>
     </div>
     <!-------------------- FOOTER -------------------->
-    <footer class="mt-auto mb-5">
-      <div class="text-center text-violet-50 text-sm">
-        Fais avec 💜 - Sheeeeeeeeeesh 🥶
-      </div>
+    <footer class="mt-auto">
+      <div class="text-center text-sm">Fais avec 💜 - Sheeeeeeeeeesh 🥶</div>
     </footer>
     <script src="script.js"></script>
   </body>
