@@ -26,7 +26,7 @@ const themeSwitch = () => {
     return;
   }
   document.documentElement.classList.add('dark');
-  localStorage.setItem('theme', 'light');
+  localStorage.setItem('theme', 'dark');
   iconToggle();
 };
 

@@ -14,13 +14,13 @@ module.exports = {
         darkBG: '#1e2124',
         darkHover: '#3A3E46',
         lightBG: '#e0ddcf',
-        lightHover: '#C0C4B1',
+        lightHover: '#fdf6e3',
       },
       margin: {
         100: '28rem',
       },
       dropShadow: {
-        '3xl': '0 10px 8px rgba(0, 0, 0, 0.5)',
+        '3xl': '0 10px 8px rgba(0, 0, 0, 0.3)',
       },
     },
   },
