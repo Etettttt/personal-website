@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class',
   content: ['./*.html'],
+  darkMode: 'class',
   theme: {
     screens: {
       sm: '360px',
@@ -11,7 +11,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        darkGray: '#393D40',
+        darkBG: '#1e2124',
+        darkHover: '#3A3E46',
+        lightBG: '#e0ddcf',
+        lightHover: '#C0C4B1',
       },
       margin: {
         100: '28rem',
