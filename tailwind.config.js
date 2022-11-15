@@ -2,6 +2,9 @@
 module.exports = {
   content: ['./*.html'],
   darkMode: 'class',
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
   theme: {
     screens: {
       sm: '320px',
